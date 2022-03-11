@@ -9,6 +9,6 @@ let package = Package(
         Target(name: "CppMiniSat"),
     ],
     dependencies: [
-        .Package(url: "https://github.com/ltentrup/SATSolver.git", majorVersion: 0, minor: 1)
+        .Package(url: "https://github.com/K-dizzled/MiniSat.git", majorVersion: 0, minor: 1)
     ]
 )
